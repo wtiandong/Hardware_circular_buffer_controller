@@ -14,7 +14,7 @@ This code privides a easy way to specify the parameters mentioned above. And the
 
 This code is fully verified by simulation and Xilinx XST synthesizer, and verified on spartan 6 FPGAs. 
 
-## USAEGE
+## USAGE
 1. Specify the circular buffer parameters: WRITE_DATA_WIDTH, WRITE_DATA_DEPTH, READ_DATA_WIDTH, READ_DATA_DEPTH, and BUFFER_NUM.
 
 2. Create a RAM with the same volume of WRITE_DATA_WIDTH * WRITE_DATA_DEPTH * BUFFER_NUM or READ_DATA_WIDTH * READ_DATA_DEPTH * BUFFER_NUM
