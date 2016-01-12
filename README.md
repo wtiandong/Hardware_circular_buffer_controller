@@ -12,7 +12,7 @@ Circular buffer controllers are commonly used in FPGA design. However, verilog d
 
 This code privides a easy way to specify the parameters mentioned above. And the controller fully support cross clock domain feature, i.e., data writing clock and data read clock are not the same.
 
-This code is fully verified by simulation and Xilinx XST synthesizer, and verified on spartan 6 FPGAs. 
+This code is verified by simulation and Xilinx XST synthesizer, and verified on spartan 6 FPGAs. 
 
 ## USAGE
 1. Specify the circular buffer parameters: WRITE_DATA_WIDTH, WRITE_DATA_DEPTH, READ_DATA_WIDTH, READ_DATA_DEPTH, and BUFFER_NUM.
